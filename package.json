@@ -2,14 +2,14 @@
   "name": "tspiler",
   "version": "1.0.0",
   "description": "Pipe transpile typescript",
-  "main": "index.js",
+  "bin": {
+    "tspile": "index.js"
+  },
   "dependencies": {
     "typescript": "^1.8.9"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+  "author": "Simon Buchan <simon.buchan.nz@gmail.com>",
+  "license": "ISC",
+  "repository": "simonbuchan/tspiler"
 }
